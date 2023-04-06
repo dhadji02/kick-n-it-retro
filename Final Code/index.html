@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" type="image/x-icon" href="img/logo.ico">
+    <title>Kick'n it Retro</title>
+
+    <!-- Include Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous"/>
+    <script src="https://kit.fontawesome.com/657e4285f5.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!-- Load Google Font -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,100,300,500,400italic,300italic" rel="stylesheet" type="text/css"/>
+  
+  </head>
+
+  <body>
+    <div id="page">
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">
+        <img src="img/logo.png" width="80" height="80" class="d-inline-block"/><em id="logo_title"> Memories coming to life.</em></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="turnjs4\book\index.html#page/8">About Us</a>
+          </li>
+          <!-- Button trigger modal -->
+          <button type="button" class="btn btn-warning justify-content-end" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            How to use
+          </button>
+          </ul>
+        </div>
+        </div>
+      </nav>
+    
+      <div id="ate">
+      <div class="flipbook-viewport">
+        <div class="container">
+          <div class="flipbook">
+            <div style="background-image:url(turnjs4/basic/pages/1.jpg)"></div>
+            <div style="background-image:url(turnjs4/basic/pages/2.jpg)"></div>
+            <div style="background-image:url(turnjs4/basic/pages/3.jpg)"></div>
+            <div style="background-image:url(turnjs4/basic/pages/4.jpg)"></div>
+            <div style="background-image:url(turnjs4/basic/pages/5.jpg)"></div>
+            <div style="background-image:url(turnjs4/basic/pages/6.jpg)"></div>
+            <div style="background-image:url(turnjs4/basic/pages/7.jpg)"></div>
+            <div style="background-image:url(turnjs4/basic/pages/8.jpg)"></div>
+            <div style="background-image:url(turnjs4/basic/pages/9.jpg)"></div>
+            <div style="background-image:url(turnjs4/basic/pages/10.jpg)"></div>
+            <div style="background-image:url(turnjs4/basic/pages/11.jpg)"></div>
+            <div style="background-image:url(turnjs4/basic/pages/12.jpg)"></div>
+          </div>
+        </div>
+      </div>
+      </div>
+
+    </div>
+
+    <!--Footer-->
+    <footer class="heading1">
+      This website was created in the context of the Final Project of the course INFOMITI - Interaction Technology Innovation of the Graduate School of Natural Sciences of Utrecht University, during the academic year 2022-2023.
+      <div> © 2023. Demetra Hadjicosti, Samin Asnaashari, John Scott Siri, Fela Meijer, Freek Shraa. All rights Reserved.</div>
+    </footer>
+
+    <!-- embedding JS libraries -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- d3 script -->
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script type="text/javascript" src="turnjs4/extras/jquery.min.1.7.js"></script>
+    <script type="text/javascript" src="turnjs4/extras/modernizr.2.5.3.min.js"></script>
+    <!-- Prepare data; display bar chart; click event listener; update DOM -->
+    <script src="js/main.js"></script>
+    
+  </body>
+</html>
